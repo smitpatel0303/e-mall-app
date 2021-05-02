@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="304dp"
+        android:layout_height="315dp"
+        app:srcCompat="@drawable/cart"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="182dp"
+        android:layout_height="84dp"
+        android:text="App"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="182dp"
+        android:layout_height="84dp"
+        android:text="E-mall"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="294dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00AC2828"
+        android:text="Start Shopping"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
